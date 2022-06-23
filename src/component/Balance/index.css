@@ -1,0 +1,60 @@
+.balance {
+    background: hsl(10, 79%, 65%);
+    color: white;
+  
+    width: 100%;
+    height: 100px;
+    margin-bottom: 25px;
+  
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .myBalance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .myBalance > .Tittle {
+    margin-bottom: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  
+  .myBalance > .currentBalance {
+    font-size: 23px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  
+  .circleGroup {
+    display: flex;
+    padding-right: 40px;
+  
+    position: relative;
+  }
+  
+  .circleGroup > .circleBrow {
+    border-radius: 50%;
+    background: hsl(25, 47%, 15%);
+    width: 35px;
+    height: 35px;
+  }
+  
+  .circleGroup > .circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+  
+    border: 1px solid white;
+    position: relative;
+    left: 18px;
+  }
